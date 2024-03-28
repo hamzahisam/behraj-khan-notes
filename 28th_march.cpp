@@ -3,6 +3,7 @@
 #include<algorithm>
 using namespace std;
 
+/*
 int increment(int x){  return (x+1); }
 
 int main(){
@@ -24,4 +25,18 @@ int main(){
     }
 
     cout<< sum << endl;
+}
+*/
+
+class adder{
+public:
+    int operator()(int a, int b){
+        return a + b;
+    }
+    
+};
+
+int main(){
+    adder add;
+    cout << add(1, 2) << endl;
 }
