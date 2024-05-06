@@ -49,7 +49,7 @@ int main(){
     }
  }
  */
-    
+/*
 int main(){
     set<int> ibad;
     int x;
@@ -62,3 +62,4 @@ int main(){
         cout << *it << " ";
     }
 }
+*/
